@@ -1,6 +1,4 @@
-# Project Name
-
-Mercado Kids
+# Mercado Kids Backend
 
 ## Table of Contents
 - [Project Overview](#project-overview)
