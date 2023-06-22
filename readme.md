@@ -31,7 +31,7 @@ To set up the project on your local machine, please follow these steps:
 
 1. Clone the repository:
 
-```git clone https://github.com/Manuel-Espinosa/mercado-kifs-backend.git```
+```git clone https://github.com/Manuel-Espinosa/mercado-kids-backend.git```
 
 2. Navigate to the project directory
 

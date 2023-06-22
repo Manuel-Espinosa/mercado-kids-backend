@@ -1,5 +1,7 @@
 import { Shipment } from "../../schemas/shipment.js";
 import axios from "axios";
+import dotenv from "dotenv";
+
 dotenv.config();
 const APIKEY = process.env.ENVIAME_API_KEY;
 const URL = process.env.ENVIAME_URL;

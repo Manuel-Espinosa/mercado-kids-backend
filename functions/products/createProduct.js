@@ -4,7 +4,7 @@ const createProduct = async (req, res, next) => {
   try {
 
     // Take the values for each key from the request body
-    const { sku, name, category, brand, description, status, dimensions, weight, inventory, images } = req.body;
+    const { sku, name, category, brand, description, price, status, dimensions, weight, inventory, images } = req.body;
 
     // Create a new Product instance using the Product schema
     const createdProduct = new Product({
@@ -13,6 +13,7 @@ const createProduct = async (req, res, next) => {
       category,
       brand,
       description,
+      price,
       status,
       dimensions,
       weight,
